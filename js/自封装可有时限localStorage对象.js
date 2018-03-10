@@ -1,7 +1,3 @@
-// localStorage.setItem(`大神`, `dashen`);
-// localStorage.removeItem(`大神`);
-// console.log(localStorage.key(`大神`));
-
 //自封装可有时限localStorage对象
 
 
@@ -85,8 +81,3 @@ let myLocalStorage = {
 };
 //当加载本对象后就检索并删除超期数据
 myLocalStorage.checkOverdue();
-
-myLocalStorage.setItem(`大神你妹`, `大神mmp`, new Date(`2020`));
-myLocalStorage.setItem(`大神`, `大asdf神dd无敌`, new Date());
-// myLocalStorage.removeItem(`大神你妹`);
-
